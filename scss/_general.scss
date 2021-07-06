@@ -1,0 +1,74 @@
+// IMPORT SECTION
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+//VARIABLES
+
+$bgColor: #f3fafa;
+$primaryColor: #161a21;
+$secundaryColor: white;
+$buttonPrimaryColor: #0076c1;
+$buttonSecondColor: white;
+
+//GENERAL
+
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	font-size: 19px;
+}
+iframe{
+	padding-top: 20px;
+}
+h4{
+	color: black;
+	text-align: center;
+	padding-bottom: 20px;
+}
+.secondaryButton{
+		a{
+			text-decoration: none;
+			margin: 40px;
+			padding: 10px;
+			color: white;
+			background-color: $buttonPrimaryColor;
+			border: 2px solid white;
+			box-shadow: -6px 4px 15px 1px rgba(0,0,0,0.77);
+		}	
+}
+.secondaryButton--news{
+	@extend .secondaryButton;
+	a{
+	font-size: 35px;	
+	}
+}
+$textsize: (
+	"small": 15px,
+	"medium": 20px,
+	"large":40px
+);
+@each $r, $v in $textsize{
+	.font-size-#{$r}{
+		font-size: $v;
+	}
+}
+$textweight: (
+	"light": 300,
+	"regular": 400,
+	"medium": 500,
+	"semi-bold": 600,
+);
+@each $s, $v in $textweight{
+	.font-weight-#{$s}{
+		font-weight: $v;
+	}
+}
+// @keyframes aparecer{
+// 	0%{
+// 		opacity: 0;
+// 	}
+// 	100%{
+// 		opacity: 1;
+// 	}
+// }

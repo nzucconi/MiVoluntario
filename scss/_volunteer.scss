@@ -1,0 +1,32 @@
+#volunteer{
+    min-height: 400px;
+    background-color: $bgColor;
+    h1{
+        color: rgb(26, 11, 11);
+        text-align: center;
+        padding: 20px;
+    }
+    .volunteerDetails{
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: space-around;
+        text-align: center;
+        width: 100%;
+        min-height: 30vh;
+        padding-bottom: 20px; 
+        .cardVolunteer{
+            padding: 8px;
+        }
+        img{
+            height: 70px;
+            margin: 32px 0;
+        }
+        p{
+            padding: 15px;
+        }   
+         } 
+    .volunteerButton{
+        text-align: center;
+    }
+}   
