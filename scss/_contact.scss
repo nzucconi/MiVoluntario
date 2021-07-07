@@ -4,7 +4,7 @@
 	min-height: 400px;
 	width: 100%;
 	.contactInfo{
-		background-color: $bgColor;
+		background-color: #6cc3c3;
 		flex: 3;
 		margin: 50px;
 		padding: 30px;
@@ -17,6 +17,9 @@
 			display: flex;
 			flex-direction: column;
 			padding-right: 20px;
+			label{
+				padding-top: 5px;
+			}
 			input{
 				width: 350px;
 				height: 30px;
@@ -70,18 +73,30 @@
 		}
 	}	
 	.contactBanner{
-		background-color: rgb(128, 83, 170);
+		background-color: $bgColor;
 		flex: 2;
 		.contactBanner-box{
-			margin: auto;
-			background-color: rgb(255, 255, 255);
-
+			height: 70%;
+			width: 80%;
+			margin: 50px 0px auto;
+			padding: 20px;
+			background-color: #f0b0e8;
 		}
 			.contactBanner-head{
-
+				padding: 25px;
 			}
 			.contactBanner-info{
-
+				padding-left: 25px;
+				label{
+					font-size: 14px;
+				}
+				.tempbanner{
+					.tempaddress{
+						p{
+							margin-bottom: 0;
+						}	
+					}
+				}
 			}
 	}
 }

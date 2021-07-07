@@ -14,6 +14,10 @@ h4 {
   text-align: center;
   padding-bottom: 20px; }
 
+input, select, textarea {
+  border: 1px solid #abacab;
+  border-radius: 8px; }
+
 .secondaryButton a, .secondaryButton--news a {
   text-decoration: none;
   margin: 40px;
@@ -68,7 +72,7 @@ h4 {
   width: 100%;
   display: flex;
   flex-direction: row;
-  background-color: #f3fafa; }
+  background-color: #f2fafa; }
   .mainnews .mainnews__head {
     min-height: 45vh;
     width: 100%;
@@ -101,7 +105,7 @@ h4 {
   min-height: 400px;
   width: 100%; }
   .maincontact .contactInfo {
-    background-color: #f3fafa;
+    background-color: #6cc3c3;
     flex: 3;
     margin: 50px;
     padding: 30px; }
@@ -113,6 +117,8 @@ h4 {
       display: flex;
       flex-direction: column;
       padding-right: 20px; }
+      .maincontact .contactInfo .tempname label {
+        padding-top: 5px; }
       .maincontact .contactInfo .tempname input {
         width: 350px;
         height: 30px;
@@ -151,15 +157,26 @@ h4 {
       font-size: 20px;
       word-spacing: 1.5px; }
   .maincontact .contactBanner {
-    background-color: #8053aa;
+    background-color: #f2fafa;
     flex: 2; }
     .maincontact .contactBanner .contactBanner-box {
-      margin: auto;
-      background-color: white; }
+      height: 70%;
+      width: 80%;
+      margin: 50px 0px auto;
+      padding: 20px;
+      background-color: #f0b0e8; }
+    .maincontact .contactBanner .contactBanner-head {
+      padding: 25px; }
+    .maincontact .contactBanner .contactBanner-info {
+      padding-left: 25px; }
+      .maincontact .contactBanner .contactBanner-info label {
+        font-size: 14px; }
+      .maincontact .contactBanner .contactBanner-info .tempbanner .tempaddress p {
+        margin-bottom: 0; }
 
 #volunteer {
   min-height: 400px;
-  background-color: #f3fafa; }
+  background-color: #f2fafa; }
   #volunteer h1 {
     color: #1a0b0b;
     text-align: center;

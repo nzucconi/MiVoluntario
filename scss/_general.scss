@@ -3,7 +3,7 @@
 
 //VARIABLES
 
-$bgColor: #f3fafa;
+$bgColor: #f2fafa;
 $primaryColor: #161a21;
 $secundaryColor: white;
 $buttonPrimaryColor: #0076c1;
@@ -25,6 +25,10 @@ h4{
 	color: black;
 	text-align: center;
 	padding-bottom: 20px;
+}
+input, select, textarea{
+	border: 1px solid rgb(171, 172, 171);
+	border-radius: 8px;
 }
 .secondaryButton{
 		a{
