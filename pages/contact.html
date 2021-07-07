@@ -24,56 +24,55 @@
 		  		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 		    		<ul class="navbar-nav m-auto">
 		      			<li class="nav-item">
-		        			<a class="nav-link" href="../index.html">Inicio</a>
+		        			<a class="nav-link" href="../index.html">Home</a>
 		      			</li>
 		      			<li class="nav-item">
-				        	<a class="nav-link" href="#volunteer">Quiero Ser voluntario</a>
+				        	<a class="nav-link" href="#volunteer">Get Involved</a>
 				      	</li>
 				      	<li class="nav-item">
-				        	<a class="nav-link" href="news.html">Novedades</a>
+				        	<a class="nav-link" href="news.html">News</a>
 				      	</li>
 				      	<li class="nav-item">
-				        	<a class="nav-link" href="meetus.html">Nosotros</a>
+				        	<a class="nav-link" href="meetus.html">Who We Are</a>
 				      	</li>
 				      	<li class="nav-item">
-				        	<a class="nav-link" href="contact.html">Contacto</a>
+				        	<a class="nav-link" href="contact.html">Contact Us</a>
 				      	</li>
 		    		</ul>
 				</div>
 			</nav>
 		</div>
 <!-----------------------------------CONTACT SECTION----------------------------------->
-        <div class="maincontact" id="contact">
-			<div>
-			<form action="" method="POST" enctype="multiplat/form-data">
-				<div>
-					<label>Nombre</label>
-					<input type="text" name="nombre" placeholder="Ingresa tu nombre">
-					<label>Email</label>
-					<input type="email" name="email" placeholder="Ingresa tu email">
-				</div>
-			</form>
+        <div class="maincontact">
+			<div class="contactInfo">
+				<form action="" method="POST" enctype="multiplat/form-data">
+					<div class="tempflex">
+						<label>Name</label>
+						<input required type="text" name="name">
+						<label>Email</label>
+						<input required type="email" name="email">
+					</div>
+					<div class="tempflex">
+						<label>Subject</label>
+						<select name="tipo">
+							<option>Administración</option>
+							<option>Donaciones</option>
+							<option>Marketing</option>
+							<option>Otro</option>
+						</select>
+					</div>
+					<div class="tempflex focus">
+						<label>Mensaje</label>
+						<textarea></textarea>
+					</div>
+					<div class="maincontact__send maincontact__send--animated">
+						<input type="submit" name="sube_form" value="Enviar">
+					</div>
+				</form>
 			</div>
-			<div>
-				<label>Asunto</label>
-				<select>
-					<option>Administración</option>
-					<option>Donaciones</option>
-					<option>Marketing</option>
-					<option>Otro</option>
-				</select>
-			</div>
-			<div class="focus">
-				<label>Mensaje</label>
-				<textarea></textarea>
-			</div>
-			<div>
-				<input type="checkbox" name="captcha" value="captcha">
-				<label>No soy un robot</label>
-			</div>
-			<div class="maincontact__send maincontact__send--animated">
-				<input type="submit" name="sube_form" value="Enviar">
+			<div class="contactBanner">
+
 			</div>
 		</div>
-    </body>
+	</body>
 </html>

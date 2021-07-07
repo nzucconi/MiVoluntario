@@ -96,26 +96,21 @@ h4 {
     padding-bottom: 40px; }
 
 .maincontact {
-  text-align: center;
-  font-family: Nunito, cursive;
-  padding-top: 20px; }
-  .maincontact .focus textarea {
-    width: 300px;
-    height: 200px;
-    transition: all 2s; }
-  .maincontact .focus textarea:focus {
-    width: 800px;
-    height: 400px;
-    font-size: 23px; }
-  .maincontact .maincontact__send input {
-    font-size: 20px;
-    word-spacing: 1.5px; }
-  .maincontact .maincontact__send--animated input:hover {
-    height: 50px;
-    width: 100px;
-    transition: all 0.5s linear;
-    background: linear-gradient(to right, white, blue);
-    color: black; }
+  display: flex;
+  flex-direction: row;
+  min-height: 400px;
+  width: 100%; }
+  .maincontact .contactInfo {
+    background-color: grey;
+    flex: 2; }
+    .maincontact .contactInfo .tempflex {
+      display: flex;
+      flex-direction: column; }
+      .maincontact .contactInfo .tempflex input {
+        width: 250px; }
+  .maincontact .contactBanner {
+    background-color: red;
+    flex: 1; }
 
 #volunteer {
   min-height: 400px;
