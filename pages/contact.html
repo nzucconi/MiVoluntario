@@ -46,22 +46,30 @@
         <div class="maincontact">
 			<div class="contactInfo">
 				<form action="" method="POST" enctype="multiplat/form-data">
-					<div class="tempflex">
-						<label>Name</label>
-						<input required type="text" name="name">
+					<label>Name</label>
+					<div class="tempinfo">
+						<div class="tempname">
+							<input required type="text" name="name">
+							<label>First</label>
+						</div>
+						<div class="tempname">
+							<input required type="text" name="name">
+							<label>Last</label>
+						</div>
+					</div>
+					<div class="tempemail">	
 						<label>Email</label>
 						<input required type="email" name="email">
 					</div>
-					<div class="tempflex">
+					<div class="tempselect">
 						<label>Subject</label>
-						<select name="tipo">
-							<option>Administración</option>
-							<option>Donaciones</option>
-							<option>Marketing</option>
-							<option>Otro</option>
+						<select>
+							<option>Donate</option>
+							<option>Volunteer</option>
+							<option>Other</option>
 						</select>
 					</div>
-					<div class="tempflex focus">
+					<div class="tempmessage focus">
 						<label>Mensaje</label>
 						<textarea></textarea>
 					</div>

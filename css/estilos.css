@@ -101,16 +101,58 @@ h4 {
   min-height: 400px;
   width: 100%; }
   .maincontact .contactInfo {
-    background-color: grey;
-    flex: 2; }
-    .maincontact .contactInfo .tempflex {
+    background-color: #f3fafa;
+    flex: 3;
+    margin: 50px;
+    padding: 30px; }
+    .maincontact .contactInfo .tempinfo {
+      display: flex;
+      flex-direction: row;
+      padding-bottom: 20px; }
+    .maincontact .contactInfo .tempname {
+      display: flex;
+      flex-direction: column;
+      padding-right: 20px; }
+      .maincontact .contactInfo .tempname input {
+        width: 350px;
+        height: 30px;
+        background-color: white; }
+    .maincontact .contactInfo .tempemail {
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 20px; }
+      .maincontact .contactInfo .tempemail input {
+        width: 350px;
+        height: 30px;
+        background-color: white; }
+      .maincontact .contactInfo .tempemail label {
+        padding: 10px 0px 5px 3px; }
+    .maincontact .contactInfo .tempselect {
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 20px; }
+      .maincontact .contactInfo .tempselect select {
+        width: 350px;
+        background-color: white; }
+      .maincontact .contactInfo .tempselect label {
+        padding: 13px 0px 5px 3px; }
+    .maincontact .contactInfo .tempmessage {
       display: flex;
       flex-direction: column; }
-      .maincontact .contactInfo .tempflex input {
-        width: 250px; }
+      .maincontact .contactInfo .tempmessage label {
+        padding: 20px 0px 5px 3px; }
+      .maincontact .contactInfo .tempmessage textarea {
+        width: 740px;
+        height: 160px;
+        background-color: white; }
+    .maincontact .contactInfo .maincontact__send input {
+      margin: 40px 0px 5px 3px;
+      padding: 7px 15px;
+      font-size: 20px;
+      word-spacing: 1.5px; }
   .maincontact .contactBanner {
-    background-color: red;
-    flex: 1; }
+    background-color: #8053aa;
+    flex: 2; }
 
 #volunteer {
   min-height: 400px;
