@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mi Voluntario</title>
+	<meta charset=utf-8>
+	<meta name=viewport content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!--SEO-->
+	<meta name="description" content="This is a site to connect volunteers with ngo's that need their help">
+	<meta name="keywords"  content="volunteer, help others, social, in need">
+	<!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/estilos.css">
+</head>
+	<body>
+        <!-----------------HEADER SECTION---------->
+		<div class="container-fluid px-0" id="header" >
+			<nav class="navbar navbar-expand-lg navbar-light px-0">
+				<a class="navbar-brand ml-3" href="index.html">
+	              <img src="../media/heartlogo.svg" width="40" alt="Home Logo">
+	          	</a> 
+	          	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    			<span class="navbar-toggler-icon"></span>
+	  			</button>
+		  		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		    		<ul class="navbar-nav m-auto">
+		      			<li class="nav-item">
+		        			<a class="nav-link" href="../index.html">Inicio</a>
+		      			</li>
+		      			<li class="nav-item">
+				        	<a class="nav-link" href="#volunteer">Quiero Ser voluntario</a>
+				      	</li>
+				      	<li class="nav-item">
+				        	<a class="nav-link" href="news.html">Novedades</a>
+				      	</li>
+				      	<li class="nav-item">
+				        	<a class="nav-link" href="meetus.html">Nosotros</a>
+				      	</li>
+				      	<li class="nav-item">
+				        	<a class="nav-link" href="contact.html">Contacto</a>
+				      	</li>
+		    		</ul>
+				</div>
+			</nav>
+		</div>
+<!-----------------------------------CONTACT SECTION----------------------------------->
+        <div class="maincontact" id="contact">
+			<div>
+			<form action="" method="POST" enctype="multiplat/form-data">
+				<div>
+					<label>Nombre</label>
+					<input type="text" name="nombre" placeholder="Ingresa tu nombre">
+					<label>Email</label>
+					<input type="email" name="email" placeholder="Ingresa tu email">
+				</div>
+			</form>
+			</div>
+			<div>
+				<label>Asunto</label>
+				<select>
+					<option>Administración</option>
+					<option>Donaciones</option>
+					<option>Marketing</option>
+					<option>Otro</option>
+				</select>
+			</div>
+			<div class="focus">
+				<label>Mensaje</label>
+				<textarea></textarea>
+			</div>
+			<div>
+				<input type="checkbox" name="captcha" value="captcha">
+				<label>No soy un robot</label>
+			</div>
+			<div class="maincontact__send maincontact__send--animated">
+				<input type="submit" name="sube_form" value="Enviar">
+			</div>
+		</div>
+    </body>
+</html>
