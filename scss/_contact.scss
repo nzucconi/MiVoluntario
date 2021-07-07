@@ -1,30 +1,114 @@
 .maincontact{
-	text-align: center;
-	font-family: Nunito, cursive;
-	padding-top: 20px;
-	.focus textarea{
-		width: 300px; 
-		height: 200px;
-		transition: all 2s;
-	}
-	.focus textarea:focus{
-		width: 800px;
-		height: 400px;
-		font-size: 23px;
-	}
-	.maincontact__send{
-		input{
-		font-size: 20px;
-		word-spacing: 1.5px;
+	display: flex;
+	flex-direction: row;
+	min-height: 400px;
+	width: 100%;
+	.contactInfo{
+		background-color: $bgColor;
+		flex: 3;
+		margin: 50px;
+		padding: 30px;
+		.tempinfo{
+			display: flex;
+			flex-direction: row;
+			padding-bottom: 20px;
 		}
-	}
-	.maincontact__send--animated{		
-		input:hover{
-			height: 50px;
-			width: 100px;
-			transition: all 0.5s linear;
-			background: linear-gradient(to right, white, blue);
-			color: black;
+		.tempname{
+			display: flex;
+			flex-direction: column;
+			padding-right: 20px;
+			input{
+				width: 350px;
+				height: 30px;
+				background-color: rgb(255, 255, 255);
+			}
 		}
+		.tempemail{
+			display: flex;
+			flex-direction: column;
+			padding-bottom: 20px;
+			input{
+				width: 350px;
+				height: 30px;
+				background-color: rgb(255, 255, 255);
+			}
+			label{
+				padding: 10px 0px 5px 3px;
+			}
+		}
+		.tempselect{
+			display: flex;
+			flex-direction: column;
+			padding-bottom: 20px;
+			select{
+				width: 350px;
+				background-color: rgb(255, 255, 255);
+			}
+			label{
+				padding: 13px 0px 5px 3px;
+			}
+		}
+		.tempmessage{
+			display: flex;
+			flex-direction: column;
+			label{
+				padding: 20px 0px 5px 3px;
+			}
+			textarea{
+				width: 740px;
+				height: 160px;
+				background-color: rgb(255, 255, 255);
+			}
+		}
+		.maincontact__send{
+			input{
+			margin: 40px 0px 5px 3px;
+			padding: 7px 15px;
+			font-size: 20px;
+			word-spacing: 1.5px;
+			}
+		}
+	}	
+	.contactBanner{
+		background-color: rgb(128, 83, 170);
+		flex: 2;
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .maincontact{
+// 	text-align: center;
+// 	padding-top: 20px;
+// 	.focus textarea{
+// 		width: 300px; 
+// 		height: 200px;
+// 		transition: all 2s;
+// 	}
+// 	.focus textarea:focus{
+// 		width: 800px;
+// 		height: 400px;
+// 		font-size: 23px;
+// 	}
+	
+// 	}
+	// .maincontact__send--animated{		
+	// 	input:hover{
+	// 		height: 50px;
+	// 		width: 100px;
+	// 		transition: all 0.5s linear;
+	// 		background: linear-gradient(to right, white, blue);
+	// 		color: black;
+	// 	}
+	// }
+// }
