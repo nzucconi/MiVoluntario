@@ -98,7 +98,7 @@ input, select, textarea {
     min-height: 45vh;
     width: 100%;
     text-align: center; }
-    .mainnews .mainnews__text h5 {
+    .mainnews .mainnews__text h4 {
       text-align: center;
       padding: 10px;
       color: black; }
@@ -107,8 +107,13 @@ input, select, textarea {
       text-align: center; }
 
 @media all and (max-width: 600px) {
-  .mainnews .mainnews__head {
-    display: block; } }
+  .mainnews .mainnews__head .mainnews__text {
+    display: block; }
+    .mainnews .mainnews__head .mainnews__text h4 {
+      padding: 12px; }
+    .mainnews .mainnews__head .mainnews__text .mainnews_img img {
+      height: 250px;
+      width: 100%; } }
 
 #footer {
   text-align: center;

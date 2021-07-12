@@ -15,7 +15,7 @@
 		min-height: 45vh;
 	 	width: 100%;
 		text-align: center;
-	 	h5{
+	 	h4{
 			text-align: center;
 			padding: 10px;
 			color: black;
@@ -32,7 +32,18 @@
 @media all and (max-width: 600px) {
 	.mainnews{
 		.mainnews__head{
-			display: block;
+			.mainnews__text{
+				display: block;
+				h4{
+					padding: 12px;
+				}
+				.mainnews_img{
+					img{
+					height: 250px;
+    				width: 100%;
+					}
+				}
+			}
 		}
 	}
 }
