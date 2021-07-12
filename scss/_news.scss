@@ -26,3 +26,13 @@
 		}
 	}
 }
+
+//MEDIA QUERY SECTION
+
+@media all and (max-width: 600px) {
+	.mainnews{
+		.mainnews__head{
+			display: block;
+		}
+	}
+}

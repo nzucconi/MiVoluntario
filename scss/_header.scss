@@ -4,6 +4,25 @@
 		min-height: 66px;
 		a{
 			color: white;
-		}	
+		}
+		span{
+			background-color: #c5c546;
+		}
+	}
+}
+
+//MEDIA QUERY SECTION
+
+@media all and (max-width: 600px) {
+	#header{
+		ul{
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content: center;
+		}
+			li{
+				padding-left: 20px;
+			}
 	}
 }

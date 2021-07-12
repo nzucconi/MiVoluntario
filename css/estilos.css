@@ -56,6 +56,17 @@ input, select, textarea {
   min-height: 66px; }
   #header .navbar a {
     color: white; }
+  #header .navbar span {
+    background-color: #c5c546; }
+
+@media all and (max-width: 600px) {
+  #header ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; }
+  #header li {
+    padding-left: 20px; } }
 
 .banner__main {
   min-height: 350px;
@@ -66,6 +77,10 @@ input, select, textarea {
   .banner__main .banner__store {
     text-align: center;
     padding-top: 250px; }
+
+@media all and (max-width: 600px) {
+  #bannermain {
+    background-size: contain; } }
 
 .mainnews {
   min-height: 45vh;
@@ -90,6 +105,10 @@ input, select, textarea {
     .mainnews .mainnews__text p {
       padding: 10px 15px 25px 25px;
       text-align: center; }
+
+@media all and (max-width: 600px) {
+  .mainnews .mainnews__head {
+    display: block; } }
 
 #footer {
   text-align: center;
@@ -199,3 +218,7 @@ input, select, textarea {
       padding: 15px; }
   #volunteer .volunteerButton {
     text-align: center; }
+
+@media all and (max-width: 600px) {
+  #volunteer .volunteerDetails {
+    display: block; } }
