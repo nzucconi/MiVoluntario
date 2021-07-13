@@ -92,19 +92,19 @@ input, select, textarea {
     min-height: 45vh;
     width: 100%;
     margin: 10px; }
-  .mainnews .mainnews__text {
-    display: flex;
-    flex-direction: row;
-    min-height: 45vh;
-    width: 100%;
-    text-align: center; }
-    .mainnews .mainnews__text h4 {
-      text-align: center;
-      padding: 10px;
-      color: black; }
-    .mainnews .mainnews__text p {
-      padding: 10px 15px 25px 25px;
+    .mainnews .mainnews__head .mainnews__text {
+      display: flex;
+      flex-direction: row;
+      min-height: 45vh;
+      width: 100%;
       text-align: center; }
+      .mainnews .mainnews__head .mainnews__text h4 {
+        text-align: center;
+        padding: 10px;
+        color: black; }
+      .mainnews .mainnews__head .mainnews__text p {
+        padding: 10px 15px 25px 25px;
+        text-align: center; }
 
 @media all and (max-width: 600px) {
   .mainnews .mainnews__head .mainnews__text {

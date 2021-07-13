@@ -8,21 +8,21 @@
 	 	min-height: 45vh;
 	 	width: 100%;
 		margin: 10px;
+		.mainnews__text{
+			display: flex;
+			flex-direction: row;
+			min-height: 45vh;
+			width: 100%;
+			text-align: center;
+			h4{
+				text-align: center;
+				padding: 10px;
+				color: black;
 			}
-	.mainnews__text{
-		display: flex;
-		flex-direction: row;
-		min-height: 45vh;
-	 	width: 100%;
-		text-align: center;
-	 	h4{
-			text-align: center;
-			padding: 10px;
-			color: black;
-		}
-	 	p{
-			padding: 10px 15px 25px 25px;
-			text-align: center;
+			p{
+				padding: 10px 15px 25px 25px;
+				text-align: center;
+			}
 		}
 	}
 }
