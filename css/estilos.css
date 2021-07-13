@@ -11,7 +11,6 @@ iframe {
 
 h4 {
   color: black;
-  text-align: center;
   padding-bottom: 20px; }
 
 input, select, textarea {
@@ -82,29 +81,43 @@ input, select, textarea {
   #bannermain {
     background-size: contain; } }
 
-.mainnews {
-  min-height: 45vh;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  background-color: #f2fafa; }
-  .mainnews .mainnews__head {
-    min-height: 45vh;
-    width: 100%;
-    margin: 10px; }
-    .mainnews .mainnews__head .mainnews__text {
+#news {
+  padding-top: 50px;
+  padding-left: 70px;
+  padding-right: 70px;
+  background-color: #c1c3e7; }
+  #news .news-box {
+    display: flex;
+    flex-direction: row;
+    max-height: 35vh;
+    border-radius: 6px;
+    border: 1px solid #b8a1a1;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    padding: 8px 40px;
+    background-color: #ac6767; }
+    #news .news-box img {
+      height: 30vh;
+      margin: auto; }
+    #news .news-box .news-info {
       display: flex;
-      flex-direction: row;
-      min-height: 45vh;
+      flex-direction: column;
       width: 100%;
       text-align: center; }
-      .mainnews .mainnews__head .mainnews__text h4 {
-        text-align: center;
+      #news .news-box .news-info h2 {
         padding: 10px;
-        color: black; }
-      .mainnews .mainnews__head .mainnews__text p {
+        color: black;
+        font-size: 15px; }
+      #news .news-box .news-info p {
         padding: 10px 15px 25px 25px;
-        text-align: center; }
+        font-size: 10px; }
+      #news .news-box .news-info .news-info__title {
+        flex: 0; }
+      #news .news-box .news-info .news-info__text {
+        flex: 1; }
+      #news .news-box .news-info .temp {
+        flex: 0; }
 
 @media all and (max-width: 600px) {
   .mainnews .mainnews__head .mainnews__text {
@@ -181,7 +194,7 @@ input, select, textarea {
       font-size: 20px;
       word-spacing: 1.5px; }
   .maincontact .contactBanner {
-    background-color: #f2fafa;
+    background-color: #c1c3e7;
     flex: 2; }
     .maincontact .contactBanner .contactBanner-box {
       height: 70%;
@@ -200,8 +213,8 @@ input, select, textarea {
 
 #volunteer {
   min-height: 400px;
-  background-color: #f2fafa; }
-  #volunteer h1 {
+  background-color: #c1c3e7; }
+  #volunteer h2 {
     color: #1a0b0b;
     text-align: center;
     padding: 20px; }

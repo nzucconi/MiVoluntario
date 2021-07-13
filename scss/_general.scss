@@ -3,7 +3,7 @@
 
 //VARIABLES
 
-$bgColor: #f2fafa;
+$bgColor: rgb(193, 195, 231);
 $primaryColor: #161a21;
 $secundaryColor: white;
 $buttonPrimaryColor: #0076c1;
@@ -23,7 +23,6 @@ iframe{
 }
 h4{
 	color: black;
-	text-align: center;
 	padding-bottom: 20px;
 }
 input, select, textarea{
