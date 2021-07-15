@@ -228,14 +228,14 @@ input, select, textarea {
       .maincontact .contactBanner .contactBanner-info .tempbanner .tempaddress p {
         margin-bottom: 0; }
 
-#volunteer {
+#accolades {
   min-height: 400px;
   background-color: #c1c3e7; }
-  #volunteer h2 {
+  #accolades h2 {
     color: #1a0b0b;
     text-align: center;
     padding: 20px; }
-  #volunteer .volunteerDetails {
+  #accolades .accolades-info {
     display: flex;
     flex-direction: row;
     align-content: center;
@@ -244,15 +244,13 @@ input, select, textarea {
     width: 100%;
     min-height: 30vh;
     padding-bottom: 20px; }
-    #volunteer .volunteerDetails .cardVolunteer {
+    #accolades .accolades-info .accolades-card {
       padding: 8px; }
-    #volunteer .volunteerDetails img {
+    #accolades .accolades-info img {
       height: 70px;
       margin: 32px 0; }
-    #volunteer .volunteerDetails p {
+    #accolades .accolades-info p {
       padding: 15px; }
-  #volunteer .volunteerButton {
-    text-align: center; }
 
 @media all and (max-width: 600px) {
   #volunteer .volunteerDetails {

@@ -1,0 +1,39 @@
+#accolades{
+    min-height: 400px;
+    background-color: $bgColor;
+    h2{
+        color: rgb(26, 11, 11);
+        text-align: center;
+        padding: 20px;
+    }
+    .accolades-info{
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: space-around;
+        text-align: center;
+        width: 100%;
+        min-height: 30vh;
+        padding-bottom: 20px; 
+        .accolades-card{
+            padding: 8px;
+        }
+        img{
+            height: 70px;
+            margin: 32px 0;
+        }
+        p{
+            padding: 15px;
+        }   
+         } 
+} 
+
+//MEDIA QUERY SECTION
+
+@media all and (max-width: 600px) {
+	#volunteer{
+        .volunteerDetails{
+            display: block;
+        }
+    }
+}
