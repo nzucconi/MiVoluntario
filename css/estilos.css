@@ -68,14 +68,28 @@ input, select, textarea {
     padding-left: 20px; } }
 
 .banner__main {
+  display: flex;
+  flex-direction: row;
   min-height: 350px;
   background-image: url("../media/hands.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center; }
-  .banner__main .banner__store {
-    text-align: center;
-    padding-top: 250px; }
+  .banner__main .banner-box__info {
+    flex: 3;
+    padding: 30px 60px;
+    text-align: center; }
+    .banner__main .banner-box__info .banner-info {
+      border: 1px solid white;
+      padding: 50px; }
+  .banner__main .banner-box__store {
+    flex: 1;
+    border: 1px solid white;
+    text-align: center; }
+    .banner__main .banner-box__store .banner-store__button {
+      display: flex;
+      flex-direction: column;
+      padding: 30px; }
 
 @media all and (max-width: 600px) {
   #bannermain {

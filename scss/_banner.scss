@@ -1,17 +1,31 @@
 .banner__main{
+	display: flex;
+    flex-direction: row;
 	min-height: 350px;
 	background-image: url("../media/hands.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-		.banner__store{
+		.banner-box__info{
+			flex: 3;
+			padding: 30px 60px;
 			text-align: center;
-			padding-top: 250px;
-			// a{
-			// 	text-decoration: none;
-			// }
+			.banner-info{
+				border: 1px solid white;
+				padding: 50px;
+			}
 		}
-}
+		.banner-box__store{
+			flex: 1;
+			border: 1px solid white;
+			text-align: center;
+			.banner-store__button{
+				display: flex;
+				flex-direction: column;
+				padding: 30px;
+			}
+		}
+	}
 
 //MEDIA QUERY SECTION
 
