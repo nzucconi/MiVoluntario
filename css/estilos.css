@@ -50,6 +50,19 @@ input, select, textarea {
 .font-weight-semi-bold {
   font-weight: 600; }
 
+.main-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 250px;
+  margin: 5px;
+  padding: 20px; }
+  .main-info .main-info__title {
+    flex: 1; }
+  .main-info .main-info__text {
+    flex: 1; }
+
 #header .navbar {
   background-color: #161a21;
   min-height: 66px; }
@@ -255,3 +268,39 @@ input, select, textarea {
 @media all and (max-width: 600px) {
   #volunteer .volunteerDetails {
     display: block; } }
+
+.main-review__head {
+  min-height: 100px;
+  padding: 10px 20px;
+  text-align: center; }
+  .main-review__head h2 {
+    padding: 10px; }
+
+.main-review {
+  display: flex;
+  flex-direction: row;
+  min-height: 350px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px; }
+  .main-review .review-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+    width: 350px;
+    border: 1px solid black;
+    padding: 10px 30px;
+    margin: 10px 20px; }
+    .main-review .review-box .review-insidebox {
+      display: flex;
+      flex-direction: column;
+      height: 25rem;
+      width: 17rem;
+      padding: 10px;
+      border: 1px solid brown; }
+      .main-review .review-box .review-insidebox .review-box__head {
+        flex: 1; }
+      .main-review .review-box .review-insidebox .review-box__info {
+        flex: 1; }

@@ -67,6 +67,22 @@ $textweight: (
 		font-weight: $v;
 	}
 }
+.main-info{	
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 250px;
+    margin: 5px;
+    padding: 20px;
+	.main-info__title{
+		flex: 1;
+	}
+	.main-info__text{
+		flex: 1;
+	}
+}	
+
 
 
 
