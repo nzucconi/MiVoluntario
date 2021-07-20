@@ -159,12 +159,18 @@ input, select, textarea {
       width: 100%; } }
 
 #footer {
+  display: flex;
+  flex-direction: column;
   text-align: center;
-  padding-bottom: 20px;
-  padding-top: 20px; }
-  #footer a {
-    padding: 0 15px;
-    padding-bottom: 40px; }
+  min-height: 120px; }
+  #footer .footer-social {
+    margin: 5px;
+    padding: 5px; }
+    #footer .footer-social a {
+      padding: 0px 10px; }
+  #footer .footer-info {
+    margin: 5px;
+    padding: 5px; }
 
 .maincontact {
   display: flex;
