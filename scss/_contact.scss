@@ -2,16 +2,23 @@
 	display: flex;
 	flex-direction: row;
 	min-height: 400px;
-	width: 100%;
+	p{
+		margin-left: 50px;
+		margin-top: 10px;
+	}
+	label{
+		margin-bottom: 0;
+	}
 	.contactInfo{
 		background-color: #6cc3c3;
 		flex: 3;
-		margin: 50px;
+		margin: 10px 50px;
 		padding: 30px;
+		width: 75%;
 		.tempinfo{
 			display: flex;
 			flex-direction: row;
-			padding-bottom: 20px;
+			padding-bottom: 10px;
 		}
 		.tempname{
 			display: flex;
@@ -29,7 +36,7 @@
 		.tempemail{
 			display: flex;
 			flex-direction: column;
-			padding-bottom: 20px;
+			padding-right: 20px;
 			input{
 				width: 350px;
 				height: 30px;
@@ -46,16 +53,17 @@
 			select{
 				width: 350px;
 				background-color: rgb(255, 255, 255);
+    			height: 30px;
 			}
 			label{
-				padding: 13px 0px 5px 3px;
+				padding-top: 5px;
 			}
 		}
 		.tempmessage{
 			display: flex;
 			flex-direction: column;
 			label{
-				padding: 20px 0px 5px 3px;
+				padding: 10px 0px 5px 3px;
 			}
 			textarea{
 				width: 740px;
@@ -75,10 +83,10 @@
 	.contactBanner{
 		background-color: $bgColor;
 		flex: 2;
+		margin: 10px 0px;
 		.contactBanner-box{
-			height: 70%;
+			height: 90%;
 			width: 80%;
-			margin: 50px 0px auto;
 			padding: 20px;
 			background-color: #f0b0e8;
 		}

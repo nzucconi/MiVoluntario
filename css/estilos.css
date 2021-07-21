@@ -121,7 +121,7 @@ input, select, textarea {
       padding: 10px;
       width: 50%;
       height: 22%;
-      background-color: #97c3ff; }
+      background-color: #e2524d; }
       .banner__main .banner-box__store .banner-box__button .banner-box__logo {
         flex: 1; }
       .banner__main .banner-box__store .banner-box__button .banner-box__storetext {
@@ -198,17 +198,22 @@ input, select, textarea {
 .maincontact {
   display: flex;
   flex-direction: row;
-  min-height: 400px;
-  width: 100%; }
+  min-height: 400px; }
+  .maincontact p {
+    margin-left: 50px;
+    margin-top: 10px; }
+  .maincontact label {
+    margin-bottom: 0; }
   .maincontact .contactInfo {
     background-color: #6cc3c3;
     flex: 3;
-    margin: 50px;
-    padding: 30px; }
+    margin: 10px 50px;
+    padding: 30px;
+    width: 75%; }
     .maincontact .contactInfo .tempinfo {
       display: flex;
       flex-direction: row;
-      padding-bottom: 20px; }
+      padding-bottom: 10px; }
     .maincontact .contactInfo .tempname {
       display: flex;
       flex-direction: column;
@@ -222,7 +227,7 @@ input, select, textarea {
     .maincontact .contactInfo .tempemail {
       display: flex;
       flex-direction: column;
-      padding-bottom: 20px; }
+      padding-right: 20px; }
       .maincontact .contactInfo .tempemail input {
         width: 350px;
         height: 30px;
@@ -235,14 +240,15 @@ input, select, textarea {
       padding-bottom: 20px; }
       .maincontact .contactInfo .tempselect select {
         width: 350px;
-        background-color: white; }
+        background-color: white;
+        height: 30px; }
       .maincontact .contactInfo .tempselect label {
-        padding: 13px 0px 5px 3px; }
+        padding-top: 5px; }
     .maincontact .contactInfo .tempmessage {
       display: flex;
       flex-direction: column; }
       .maincontact .contactInfo .tempmessage label {
-        padding: 20px 0px 5px 3px; }
+        padding: 10px 0px 5px 3px; }
       .maincontact .contactInfo .tempmessage textarea {
         width: 740px;
         height: 160px;
@@ -254,11 +260,11 @@ input, select, textarea {
       word-spacing: 1.5px; }
   .maincontact .contactBanner {
     background-color: #c1c3e7;
-    flex: 2; }
+    flex: 2;
+    margin: 10px 0px; }
     .maincontact .contactBanner .contactBanner-box {
-      height: 70%;
+      height: 90%;
       width: 80%;
-      margin: 50px 0px auto;
       padding: 20px;
       background-color: #f0b0e8; }
     .maincontact .contactBanner .contactBanner-head {
