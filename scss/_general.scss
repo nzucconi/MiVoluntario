@@ -1,5 +1,6 @@
 // IMPORT SECTION
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
 
 //VARIABLES
 
@@ -45,7 +46,8 @@ input, select, textarea{
 $textsize: (
 	"small": 15px,
 	"medium": 20px,
-	"large":40px
+	"large": 30px,
+	"extra-large": 40px
 );
 @each $r, $v in $textsize{
 	.font-size-#{$r}{
@@ -53,10 +55,11 @@ $textsize: (
 	}
 }
 $textweight: (
-	"light": 300,
 	"regular": 400,
+	"regular italic": 400,
 	"medium": 500,
 	"semi-bold": 600,
+	"bold": 700
 );
 @each $s, $v in $textweight{
 	.font-weight-#{$s}{
