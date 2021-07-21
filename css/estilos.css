@@ -9,10 +9,6 @@ html {
 iframe {
   padding-top: 20px; }
 
-h4 {
-  color: black;
-  padding-bottom: 20px; }
-
 input, select, textarea {
   border: 1px solid #abacab;
   border-radius: 8px; }
@@ -59,9 +55,18 @@ input, select, textarea {
   margin: 5px;
   padding: 20px; }
   .main-info .main-info__title {
-    flex: 1; }
+    flex: 1;
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
   .main-info .main-info__text {
-    flex: 1; }
+    flex: 1;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 5px 190px; }
 
 #header .navbar {
   background-color: #161a21;
@@ -94,18 +99,31 @@ input, select, textarea {
     text-align: center; }
     .banner__main .banner-box__info .banner-info {
       padding: 70px; }
+      .banner__main .banner-box__info .banner-info p {
+        font-size: 30px; }
   .banner__main .banner-box__store {
-    flex: 1;
-    text-align: center;
-    padding: 30px 60px;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly; }
-    .banner__main .banner-box__store .temporalA a {
-      text-decoration: none;
-      border: 1px solid white; }
-    .banner__main .banner-box__store .temporalB a {
-      border: 1px solid white; }
+    justify-content: space-evenly;
+    flex: 1;
+    text-align: center;
+    padding: 30px 60px; }
+    .banner__main .banner-box__store .banner-box__button {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      border: 2px solid #252020;
+      border-radius: 10px;
+      padding: 12px;
+      width: 65%;
+      height: 37%;
+      background-color: #97c3ff; }
+      .banner__main .banner-box__store .banner-box__button .banner-box__logo {
+        flex: 1; }
+      .banner__main .banner-box__store .banner-box__button .banner-box__storetext {
+        flex: 2; }
+        .banner__main .banner-box__store .banner-box__button .banner-box__storetext p, .banner__main .banner-box__store .banner-box__button .banner-box__storetext h4 {
+          margin: 0; }
 
 @media all and (max-width: 600px) {
   #bannermain {
@@ -162,7 +180,8 @@ input, select, textarea {
   display: flex;
   flex-direction: column;
   text-align: center;
-  min-height: 120px; }
+  min-height: 120px;
+  background-color: #8790da; }
   #footer .footer-social {
     margin: 5px;
     padding: 5px; }
@@ -265,11 +284,14 @@ input, select, textarea {
     padding-bottom: 20px; }
     #accolades .accolades-info .accolades-card {
       padding: 8px; }
-    #accolades .accolades-info img {
-      height: 70px;
-      margin: 32px 0; }
-    #accolades .accolades-info p {
-      padding: 15px; }
+      #accolades .accolades-info .accolades-card img {
+        height: 70px;
+        margin: 5px; }
+      #accolades .accolades-info .accolades-card p {
+        padding: 8px;
+        margin: 0; }
+      #accolades .accolades-info .accolades-card .acollades-button {
+        margin: 10px; }
 
 @media all and (max-width: 600px) {
   #volunteer .volunteerDetails {

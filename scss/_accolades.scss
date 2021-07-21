@@ -17,15 +17,19 @@
         padding-bottom: 20px; 
         .accolades-card{
             padding: 8px;
-        }
-        img{
-            height: 70px;
-            margin: 32px 0;
-        }
-        p{
-            padding: 15px;
-        }   
+            img{
+                height: 70px;
+                margin: 5px;
+            }
+            p{
+            padding: 8px;
+            margin: 0;
+            } 
+            .acollades-button{
+                margin: 10px;
+            }
          } 
+    }
 } 
 
 //MEDIA QUERY SECTION

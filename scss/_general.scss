@@ -7,7 +7,7 @@ $bgColor: rgb(193, 195, 231);
 $primaryColor: #161a21;
 $secundaryColor: white;
 $buttonPrimaryColor: #0076c1;
-$buttonSecondColor: white;
+$buttonSecondaryColor: white;
 
 //GENERAL
 
@@ -20,10 +20,6 @@ html{
 }
 iframe{
 	padding-top: 20px;
-}
-h4{
-	color: black;
-	padding-bottom: 20px;
 }
 input, select, textarea{
 	border: 1px solid rgb(171, 172, 171);
@@ -77,9 +73,18 @@ $textweight: (
     padding: 20px;
 	.main-info__title{
 		flex: 1;
+		margin: 5px;
+		padding: 5px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 	}
 	.main-info__text{
 		flex: 1;
+		display: flex;
+		align-items: center;
+		text-align: center;
+		padding: 5px 190px;
 	}
 }	
 
