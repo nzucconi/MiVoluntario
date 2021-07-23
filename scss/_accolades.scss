@@ -1,6 +1,5 @@
 #accolades{
-    min-height: 300px;
-    background-color: $bgColor;
+    background-color: white;
     h2{
         color: rgb(26, 11, 11);
         text-align: center;
@@ -19,7 +18,6 @@
             padding: 8px;
             width: 50%;
             img{
-                height: 70px;
                 margin: 5px;
             }
             p{

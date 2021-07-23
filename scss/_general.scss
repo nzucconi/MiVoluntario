@@ -1,5 +1,5 @@
 // IMPORT SECTION
-// @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
 
 //VARIABLES
@@ -7,17 +7,19 @@
 $bgColor: rgb(193, 195, 231);
 $primaryColor: #161a21;
 $secundaryColor: white;
-$buttonPrimaryColor: #0076c1;
+$buttonPrimaryColor: #3638bc;
 $buttonSecondaryColor: white;
+$colorPurple:  rgb(163, 81, 211);
+$colorBlue: rgb(59, 82, 194);
+$colorGreen: rgb(50, 156, 102);
+$colorYellow: rgb(179, 164, 58);
+$colorRed: rgb(206, 99, 42);
 
 //GENERAL
 
 *{
 	margin: 0;
 	padding: 0;
-}
-html{
-	font-size: 19px;
 }
 iframe{
 	padding-top: 20px;
@@ -44,7 +46,7 @@ input, select, textarea{
 	}
 }
 $textsize: (
-	"small": 15px,
+	"small": 13px,
 	"medium": 20px,
 	"large": 30px,
 	"extra-large": 40px
@@ -79,15 +81,20 @@ $textweight: (
 		margin: 5px;
 		padding: 5px;
 		display: flex;
-		justify-content: center;
 		align-items: center;
+		img{
+			margin: 16px;
+		}
 	}
 	.main-info__text{
 		flex: 1;
 		display: flex;
 		align-items: center;
 		text-align: center;
-		padding: 5px 190px;
+		font-size: 20px;
+		p{
+			padding: 20px 11%;
+		}
 	}
 }	
 

@@ -22,7 +22,7 @@
 	    			<span class="navbar-toggler-icon"></span>
 	  			</button>
 		  		<div class="collapse navbar-collapse" id="navbarSupportedContent">
-		    		<ul class="navbar-nav m-auto">
+		    		<ul class="navbar-nav">
 		      			<li class="nav-item">
 		        			<a class="nav-link" href="../index.html">Home</a>
 		      			</li>
@@ -43,11 +43,11 @@
 			</nav>
 		</div>
 <!-----------------I WANT TO VOLUNTEER SECTION------>
-		<div class="maincontact">
-			<p>Volunteer Aplication</p>
+		<p class="font-weight-bold tempvolunteer">Volunteer Aplication</p>		
+		<div id="contact">
 			<div class="contactInfo">
 				<form action="" method="POST" enctype="multiplat/form-data">
-					<label>Name</label>
+					<label class="contact-labels">Name<span>*</span></label>
 					<div class="tempinfo">
 						<div class="tempname">
 							<input required type="text" name="name">
@@ -60,19 +60,19 @@
 					</div>
 					<div class="tempinfo">
 						<div class="tempemail">	
-							<label>Email</label>
+							<label class="contact-labels">Email<span>*</span></label>
 							<input required type="email" name="email">
 						</div>
 						<div class="tempemail">	
-							<label>Date of Birth</label>
-							<input required type="email" name="email">
+							<label class="contact-labels">Date of Birth<span>*</span></label>
+							<input required type="email" name="email" placeholder="mm/dd/yyyy">
 						</div>
 						<div class="tempemail">	
-							<label>Phone</label>
+							<label class="contact-labels">Phone<span>*</span></label>
 							<input required type="email" name="email">
 						</div>
 					</div>
-					<label>Address</label>
+					<label class="contact-labels">Address<span>*</span></label>
 					<div class="tempname">
 						<input required type="text" name="name">
 						<label class="font-size-small">Street Address</label>
@@ -92,7 +92,7 @@
 						</div>
 					</div>
 					<div class="tempinfo">
-						<div class="tempname">
+						<div class="tempname temptemp">
 							<input required type="text" name="name">
 							<label class="font-size-small">ZIP / Postal Code</label>
 						</div>
@@ -106,8 +106,8 @@
 						</div>
 					</div>
 					<div class="tempmessage focus">
-						<label>Tell Us About Yourself</label>
-						<textarea></textarea>
+						<label class="contact-labels">Tell Us About Yourself<span>*</span></label>
+						<textarea placeholder="Write a minimun of 50 characters"></textarea>
 					</div>
 					<div class="maincontact__send maincontact__send--animated">
 						<input type="submit" name="sube_form" value="Send">
@@ -118,9 +118,9 @@
 <!---------------- FOOTER SECTION--------------->
 		<div id="footer">
 			<div class="footer-social">
-				<a href="https://www.facebook.com/"><img src="../media/facebooklogo.svg" width="45" alt="Logo de Facebook" ></a>
-				<a href="https://www.instagram.com/"><img src="../media/instagramlogo.svg" width="45" alt="Logo de Instagram"></a>
-				<a href="https://www.twitter.com/"><img src="../media/twitterlogo.svg" width="45" alt="Logo de Twitter"></a>
+				<a href="https://www.facebook.com/"><img src="../media/facebooklogo.svg" width="22" alt="Logo de Facebook" ></a>
+				<a href="https://www.instagram.com/"><img src="../media/instagramlogo.svg" width="22" alt="Logo de Instagram"></a>
+				<a href="https://www.twitter.com/"><img src="../media/twitterlogo.svg" width="22" alt="Logo de Twitter"></a>
 			</div>
 			<div class="footer-info">
 				<h4 class="font-size-small">info@myvolunteer.org / Av. Montes de Oca 233 - CP. 1270 - CABA, Buenos Aires, Argentina</h4>

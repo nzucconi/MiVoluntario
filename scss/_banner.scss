@@ -1,53 +1,46 @@
 .banner__main{
+	margin-bottom: 25px;
 	display: flex;
     flex-direction: row;
 	min-height: 350px;
-	background-image: url("../media/hands.jpg");
+	background-image: linear-gradient(
+		rgba(0, 0, 0, 0.5),
+		rgba(0, 0, 0, 0.5)
+	  	),
+	   url("../media/hands.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-		.banner-box__info{
-			flex: 2;
-			padding: 30px 60px;
-			text-align: center;
-			.banner-info{
-				padding: 70px;
-			}
-		}
 		.banner-box__store{
-			display: flex;
-			flex-direction: column;
-			justify-content: space-evenly;
-			flex: 1;
 			text-align: center;	
-			padding: 30px 60px;
-			.banner-box__button{
+			padding: 80px 20%;
+			
+			p{
+				color: white;
+			}
+			.banner-info{
+				font-size: 25px;
+				p{
+					margin: 10px 5px 20px 5px;
+					padding: 0px 20px 20px 20px;
+				}
+			}
+			.banner-box-temp{
 				display: flex;
 				flex-direction: row;
 				align-items: center;
-				border: 2px solid #252020;
-				border-radius: 10px;
-				padding: 10px;
-				width: 50%;
-				height: 22%;
-				background-color: #e2524d;
-				.banner-box__logo{
-					flex: 1;
-				}
-				.banner-box__storetext{
-					flex: 2;
-					p, h4{
-						margin: 0;
+    			justify-content: space-evenly;
+				margin-top: 30px;
 					}
-				}
-			}
 		}
-	}
+	}	
 
 //MEDIA QUERY SECTION
 
-@media all and (max-width: 600px) {
-	#bannermain{
-		background-size: contain;
+@media all and (max-width: 600px){
+	.banner__main{
+		.banner-box__store{
+		padding: 0px;
+		}
 	}
 }
