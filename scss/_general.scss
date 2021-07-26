@@ -21,30 +21,22 @@ $colorRed: rgb(206, 99, 42);
 	margin: 0;
 	padding: 0;
 }
-iframe{
-	padding-top: 20px;
-}
+
 input, select, textarea{
 	border: 1px solid rgb(171, 172, 171);
 	border-radius: 8px;
 }
 .secondaryButton{
 		a{
-			text-decoration: none;
-			margin: 40px;
-			padding: 10px;
-			color: white;
-			background-color: $buttonPrimaryColor;
-			border: 2px solid white;
-			box-shadow: -6px 4px 15px 1px rgba(0,0,0,0.77);
-		}	
-}
-.secondaryButton--news{
-	@extend .secondaryButton;
-	a{
-	font-size: 35px;	
+		text-decoration: none;
+		padding: 20px;
+		background-color: #3638bc;
+		border-radius: 10px;
+		color: white;
+		font-size: 20px;
+		box-shadow: -6px 4px 10px 1px rgba(0,0,0,0.43);
+		}
 	}
-}
 $textsize: (
 	"small": 13px,
 	"medium": 20px,

@@ -4,24 +4,18 @@
   margin: 0;
   padding: 0; }
 
-iframe {
-  padding-top: 20px; }
-
 input, select, textarea {
   border: 1px solid #abacab;
   border-radius: 8px; }
 
-.secondaryButton a, .secondaryButton--news a {
+.secondaryButton a {
   text-decoration: none;
-  margin: 40px;
-  padding: 10px;
-  color: white;
+  padding: 20px;
   background-color: #3638bc;
-  border: 2px solid white;
-  box-shadow: -6px 4px 15px 1px rgba(0, 0, 0, 0.77); }
-
-.secondaryButton--news a {
-  font-size: 35px; }
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+  box-shadow: -6px 4px 10px 1px rgba(0, 0, 0, 0.43); }
 
 .font-size-small {
   font-size: 13px; }
@@ -123,42 +117,50 @@ input, select, textarea {
     padding: 0px; } }
 
 #news {
-  padding-top: 50px;
-  padding-left: 70px;
-  padding-right: 70px;
-  background-color: #c1c3e7; }
+  padding: 0; }
   #news .news-box {
     display: flex;
     flex-direction: row;
-    max-height: 35vh;
+    min-height: 16vw;
     border-radius: 6px;
-    border: 1px solid #b8a1a1;
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 10px;
-    padding: 8px 40px;
-    background-color: #ac6767; }
+    padding: 8px 40px; }
     #news .news-box img {
-      height: 30vh;
+      height: 35vh;
       margin: auto; }
     #news .news-box .news-info {
       display: flex;
       flex-direction: column;
-      width: 100%;
+      width: 50vw;
       text-align: center; }
       #news .news-box .news-info h2 {
-        padding: 10px;
-        color: black;
-        font-size: 15px; }
+        padding: 10px; }
       #news .news-box .news-info p {
-        padding: 10px 15px 25px 25px;
-        font-size: 10px; }
+        padding: 10px 15px 0px 25px;
+        margin: 0; }
       #news .news-box .news-info .news-info__title {
         flex: 0; }
       #news .news-box .news-info .news-info__text {
         flex: 1; }
       #news .news-box .news-info .temp {
         flex: 0; }
+    #news .news-box .news-expand-box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      align-self: center;
+      width: 24vw; }
+      #news .news-box .news-expand-box p {
+        margin-bottom: 5px;
+        font-size: 18px; }
+      #news .news-box .news-expand-box .news-expand__info {
+        flex: 1;
+        margin: 0px 0px 48px 0px; }
+      #news .news-box .news-expand-box .news-button {
+        flex: 1; }
 
 @media all and (max-width: 600px) {
   .mainnews .mainnews__head .mainnews__text {
@@ -277,7 +279,7 @@ input, select, textarea {
           padding: 3px; }
         .main-review .review-box .review-insidebox .review-box__head .review-box__title p {
           margin-bottom: 5px;
-          font-size: 15px; }
+          font-size: 18px; }
       .main-review .review-box .review-insidebox .review-box__info {
         flex: 1;
         padding: 10px 10px; }
