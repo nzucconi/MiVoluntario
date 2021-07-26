@@ -191,50 +191,26 @@ input, select, textarea {
   justify-content: flex-end;
   align-items: flex-end;
   padding: 80px;
-  background-image: url("../media/integration.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../media/integration.jpg");
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  color: rgba(255, 255, 255, 0.753); }
   #contact .contact-container {
     display: flex;
     flex-direction: row; }
-  #contact .form-box {
-    flex: 1;
-    margin: 10px 0px;
-    padding: 5px; }
-    #contact .form-box .form-message {
-      display: flex;
-      flex-direction: column;
-      padding: 5px; }
-      #contact .form-box .form-message textarea {
-        margin: 5px 20px; }
-    #contact .form-box .contact-box {
-      padding: 20px;
-      text-align: center; }
-    #contact .form-box span {
-      color: #790000;
-      margin-left: 4px; }
-    #contact .form-box input {
-      background-color: rgba(0, 0, 0, 0.04);
-      border-radius: 4px;
-      border: 2px solid rgba(0, 0, 0, 0); }
-    #contact .form-box .contact-labels {
-      margin: 20px 0px 6px 0px;
-      font-weight: 500; }
-  #contact .contactBanner {
-    flex: 1;
-    margin: 10px 0px; }
-    #contact .contactBanner .contactBanner-box {
-      height: 90%;
-      width: 80%;
-      padding: 20px; }
-    #contact .contactBanner .contactBanner-head {
-      padding: 25px; }
-    #contact .contactBanner .contactBanner-info {
-      padding-left: 25px; }
-      #contact .contactBanner .contactBanner-info label {
-        font-size: 14px; }
-      #contact .contactBanner .contactBanner-info .tempbanner .tempaddress p {
-        margin-bottom: 0; }
+    #contact .contact-container .contactBanner {
+      flex: 1;
+      margin: 10px 0px; }
+      #contact .contact-container .contactBanner .contactBanner-box {
+        text-align: center;
+        width: 80%;
+        padding: 20px; }
+        #contact .contact-container .contactBanner .contactBanner-box .contactBanner-head {
+          padding: 25px; }
+          #contact .contact-container .contactBanner .contactBanner-box .contactBanner-head h2 {
+            font-size: 40px; }
+        #contact .contact-container .contactBanner .contactBanner-box .contactBanner-info {
+          padding-left: 25px; }
 
 #accolades {
   background-color: white; }
@@ -264,46 +240,47 @@ input, select, textarea {
   #volunteer .volunteerDetails {
     display: block; } }
 
-.main-review__head {
-  min-height: 100px;
-  padding: 10px 20px;
-  text-align: center; }
-  .main-review__head h2 {
-    padding: 10px; }
+#us iframe {
+  padding: 0; }
 
 .main-review {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   min-height: 350px;
-  justify-content: center;
-  align-items: center;
-  padding-top: 10px; }
+  align-self: center;
+  padding-top: 15px;
+  background-color: #b3a43a; }
+  .main-review .main-review__head {
+    padding: 5px 20px;
+    text-align: center; }
+    .main-review .main-review__head h2 {
+      padding: 10px; }
   .main-review .review-box {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
-    align-items: center;
     min-height: 500px;
-    width: 350px;
-    border: 1px solid black;
-    padding: 10px 30px;
-    margin: 10px 20px; }
+    padding: 5px 30px;
+    margin: 10px 20px;
+    width: 90%; }
     .main-review .review-box .review-insidebox {
       display: flex;
       flex-direction: column;
-      height: 25rem;
-      width: 17rem;
-      padding: 15px;
-      border: 1px solid brown;
+      padding: 10px;
       align-items: center;
       justify-content: center;
       text-align: center; }
       .main-review .review-box .review-insidebox .review-box__head {
         flex: 1; }
         .main-review .review-box .review-insidebox .review-box__head .review-box__img img {
-          border-radius: 90px; }
+          border-radius: 90px;
+          padding: 3px; }
+        .main-review .review-box .review-insidebox .review-box__head .review-box__title p {
+          margin-bottom: 5px;
+          font-size: 15px; }
       .main-review .review-box .review-insidebox .review-box__info {
-        flex: 1; }
+        flex: 1;
+        padding: 10px 10px; }
 
 .volunteer-title {
   font-size: 30px;

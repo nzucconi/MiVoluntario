@@ -6,66 +6,34 @@
 	justify-content: flex-end;
 	align-items: flex-end;
 	padding: 80px;
-	background-image: url("../media/integration.jpg");
+	background-image: linear-gradient(
+		rgba(0, 0, 0, 0.5),
+		rgba(0, 0, 0, 0.5)
+	  	),
+		url("../media/integration.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
+	color: rgba(255, 255, 255, 0.753);
 	.contact-container{
 		display: flex;
 		flex-direction: row;
-	}
-	.form-box{
-		flex: 1;
-		margin: 10px 0px;
-		padding: 5px;
-		.form-message{
-			display: flex;
-			flex-direction: column;
-			padding: 5px;
-			textarea{
-				margin: 5px 20px;
-			}
-		}
-		.contact-box{
-			padding: 20px;
-			text-align: center;
-			}
-        span{
-			color:#790000;
-			margin-left: 4px;
-		}
-		input{
-			background-color: rgba(0,0,0,0.04);
-			border-radius: 4px;
-			border: 2px solid rgba(0,0,0,0);
-		}
-		.contact-labels{
-			margin: 20px 0px 6px 0px;
-			font-weight: 500;
-		}
-	}
-	.contactBanner{
-		flex: 1;
-		margin: 10px 0px;
-		.contactBanner-box{
-			height: 90%;
-			width: 80%;
-			padding: 20px;
-			}
-			.contactBanner-head{
-				padding: 25px;
-			}
-			.contactBanner-info{
-				padding-left: 25px;
-				label{
-					font-size: 14px;
+		.contactBanner{
+			flex: 1;
+			margin: 10px 0px;
+			.contactBanner-box{
+				text-align: center;
+				width: 80%;
+				padding: 20px;
+				.contactBanner-head{
+					padding: 25px;
+					h2{
+						font-size: 40px;
+					}
 				}
-				.tempbanner{
-					.tempaddress{
-						p{
-							margin-bottom: 0;
-						}	
+				.contactBanner-info{
+					padding-left: 25px;
+						}
 					}
 				}
 			}
 		}
-	}
