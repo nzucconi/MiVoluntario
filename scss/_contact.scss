@@ -1,26 +1,35 @@
-.tempvolunteer{
-	font-size: 30px;
-	margin: 30px 70px 7px 70px;
-	padding: 0px 90px;
-}
 #contact{
 	display: flex;
 	flex-direction: row;
 	min-height: 400px;
 	font-family: 'Montserrat', sans-serif;
-	p{
-		margin-left: 50px;
-		margin-top: 10px;
+	justify-content: flex-end;
+	align-items: flex-end;
+	padding: 80px;
+	background-image: url("../media/integration.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	.contact-container{
+		display: flex;
+		flex-direction: row;
 	}
-	label{
-		margin-bottom: 0;
-	}
-	.contactInfo{
-		flex: 3;
-		margin: 0px 70px;
-		padding: 0px 90px;
-		width: 75%;
-		span{
+	.form-box{
+		flex: 1;
+		margin: 10px 0px;
+		padding: 5px;
+		.form-message{
+			display: flex;
+			flex-direction: column;
+			padding: 5px;
+			textarea{
+				margin: 5px 20px;
+			}
+		}
+		.contact-box{
+			padding: 20px;
+			text-align: center;
+			}
+        span{
 			color:#790000;
 			margin-left: 4px;
 		}
@@ -33,56 +42,15 @@
 			margin: 20px 0px 6px 0px;
 			font-weight: 500;
 		}
-		.tempinfo{
-			display: flex;
-			flex-direction: row;
-			.temptemp{
-				flex: 1;
-			}
-		}
-		.tempname{
-			display: flex;
-			flex-direction: column;
-			padding-right: 16px;
-			flex: 1;
-			label{
-			margin: 1px 0 9px 1px;
-			}
-			}
-		.tempemail{
-			display: flex;
-			flex-direction: column;
-			padding-right: 20px;
-			flex: 1;
-			}
-		.tempselect{
-			display: flex;
-			flex-direction: column;
-			flex: 1;
-		}
-		.tempmessage{
-			display: flex;
-			flex-direction: column;
-			}
-		.maincontact__send{
-			input{
-			margin: 40px 0px 5px 3px;
-			padding: 7px 15px;
-			font-size: 20px;
-			word-spacing: 1.5px;
-			}
-		}
-	}	
+	}
 	.contactBanner{
-		background-color: $bgColor;
-		flex: 2;
+		flex: 1;
 		margin: 10px 0px;
 		.contactBanner-box{
 			height: 90%;
 			width: 80%;
 			padding: 20px;
-			background-color: #f0b0e8;
-		}
+			}
 			.contactBanner-head{
 				padding: 25px;
 			}
@@ -99,6 +67,5 @@
 					}
 				}
 			}
+		}
 	}
-}
-

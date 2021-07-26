@@ -29,12 +29,18 @@
             flex-direction: column;
             height: 25rem;
             width: 17rem;
-            padding: 10px;
+            padding: 15px;
             border: 1px solid brown;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
             .review-box__head{
                 flex: 1;
                 .review-box__img{
-                }
+                       img{
+                           border-radius: 90px;
+                       }
+                   }
                 .review-box_title{
                 }
             }
