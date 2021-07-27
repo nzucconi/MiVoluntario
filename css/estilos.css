@@ -131,9 +131,7 @@ input, select, textarea {
     flex-direction: row;
     min-height: 16vw;
     border-radius: 6px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 10px;
+    margin: 10px 20px;
     padding: 8px 40px; }
     #news .news-box img {
       height: 35vh;
@@ -144,10 +142,12 @@ input, select, textarea {
       width: 50vw;
       text-align: center; }
       #news .news-box .news-info h2 {
-        padding: 10px; }
+        padding: 10px;
+        font-size: 25px; }
       #news .news-box .news-info p {
         padding: 10px 15px 0px 25px;
-        margin: 0; }
+        margin: 0;
+        font-size: 18px; }
       #news .news-box .news-info .news-info__title {
         flex: 0; }
       #news .news-box .news-info .news-info__text {
@@ -170,14 +170,39 @@ input, select, textarea {
       #news .news-box .news-expand-box .news-button {
         flex: 1; }
 
-@media all and (max-width: 600px) {
-  .mainnews .mainnews__head .mainnews__text {
-    display: block; }
-    .mainnews .mainnews__head .mainnews__text h4 {
-      padding: 12px; }
-    .mainnews .mainnews__head .mainnews__text .mainnews_img img {
-      height: 250px;
-      width: 100%; } }
+@media all and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  #news .news-box {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px; }
+    #news .news-box img {
+      height: 38vh;
+      margin-top: 5px; }
+    #news .news-box .news-info {
+      width: 100%;
+      margin: 5px 0px 20px 0px; }
+      #news .news-box .news-info .news-info__title, #news .news-box .news-info .news-info__text {
+        width: 100%; }
+    #news .news-box .news-expand-box {
+      margin: 10px 0px 0px 0px; }
+      #news .news-box .news-expand-box span {
+        font-size: 22px; }
+      #news .news-box .news-expand-box .news-expand__info {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin: 0px 0px 35px 0px;
+        border-radius: 8px;
+        background-color: #b3a43a; }
+        #news .news-box .news-expand-box .news-expand__info p {
+          padding: 0px 7px; }
+      #news .news-box .news-expand-box .news-button {
+        width: 85vw;
+        margin-bottom: 30px; }
+        #news .news-box .news-expand-box .news-button a {
+          padding: 10px 8px; } }
 
 #footer {
   background-color: #161a21;
@@ -249,10 +274,6 @@ input, select, textarea {
       #accolades .accolades-info .accolades-card p {
         padding: 8px;
         margin: 0; }
-
-@media all and (max-width: 600px) {
-  #volunteer .volunteerDetails {
-    display: block; } }
 
 #us iframe {
   padding: 0; }
