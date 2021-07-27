@@ -1,17 +1,21 @@
 #footer{
+	background-color: $primaryColor;
 	display: flex;
 	flex-direction: column;
 	text-align: center;
-	background-color: $buttonPrimaryColor;
+	justify-content: center;
+    align-items: center;
+    height: 6vw;
 	.footer-social{
-		margin: 5px;
+		margin: 3px;
 		padding: 5px;
 		a{
 			padding: 0px 10px;
 		}
 	}
 	.footer-info{
-		margin: 5px;
+		margin: 3px;
 		padding: 5px;
+		color: white;
 	}
 }

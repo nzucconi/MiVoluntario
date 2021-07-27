@@ -31,16 +31,26 @@
 				align-items: center;
     			justify-content: space-evenly;
 				margin-top: 30px;
-					}
+				}
 		}
 	}	
 
-//MEDIA QUERY SECTION
+	//MEDIA QUERY SECTION
 
 @media all and (max-width: 600px){
 	.banner__main{
 		.banner-box__store{
-		padding: 0px;
+			padding: 0px 10px 15px 10px;
+			.banner-info{
+				img{
+					margin: 25px;
+				}
+			}
+			.banner-box-temp{
+				img{
+					width: 75%;
+				}
+			}
 		}
 	}
 }

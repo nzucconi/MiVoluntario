@@ -1,6 +1,6 @@
 .volunteer-title{
 	font-size: 30px;
-	margin: 30px 70px 7px 70px;
+	margin: 30px 150px 7px 150px;
 	padding: 0px 90px;
 }
 
@@ -9,6 +9,10 @@
 	flex-direction: row;
 	min-height: 400px;
 	font-family: 'Montserrat', sans-serif;
+	textarea{
+		height: 10vw;
+		padding: 4px;
+	}
     p{
 		margin-left: 50px;
 		margin-top: 10px;
@@ -18,7 +22,7 @@
 	}
     .form-box{
         flex: 3;
-		margin: 0px 70px;
+		margin: 0px 150px;
 		padding: 0px 90px;
 		width: 75%;
         span{
@@ -50,15 +54,23 @@
         .form-select{
             display: flex;
 			flex-direction: column;
-			flex: 1; 
+			flex: 1;
+			select{
+				height: 2vw;
+			} 
         }
         .form-message{
             display: flex;
 			flex-direction: column;
         }
-		.maincontact__send{
+		.maincontact__send{	
+			display: flex;
+    		justify-content: center;
             input{
-                margin: 40px 0px 5px 3px;
+                margin: 20px 6px 30px 6px;
+				background-color: #3638bc;
+				border-radius: 10px;
+				color: white;
                 padding: 7px 15px;
                 font-size: 20px;
                 word-spacing: 1.5px;

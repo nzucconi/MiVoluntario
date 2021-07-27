@@ -5,16 +5,16 @@
 		a{
 			color: white;
 		}
-		span{
-			background-color: #c5c546;
-		}
 	}
 }
 
 //MEDIA QUERY SECTION
 
-@media all and (max-width: 600px) {
+@media all and (min-width: 375px) {
 	#header{
+		span{
+			background-image: url("../media/menu.png");
+		}
 		ul{
 			display: flex;
 			flex-direction: row;
@@ -24,5 +24,11 @@
 			li{
 				padding-left: 20px;
 			}
+	}
+	#accolades{
+		margin: 0px 25px 30px 25px;
+	}
+	#footer{
+		min-height: 27vw;
 	}
 }
