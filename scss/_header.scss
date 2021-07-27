@@ -7,28 +7,3 @@
 		}
 	}
 }
-
-//MEDIA QUERY SECTION
-
-@media all and (min-width: 375px) {
-	#header{
-		span{
-			background-image: url("../media/menu.png");
-		}
-		ul{
-			display: flex;
-			flex-direction: row;
-			flex-wrap: wrap;
-			justify-content: center;
-		}
-			li{
-				padding-left: 20px;
-			}
-	}
-	#accolades{
-		margin: 0px 25px 30px 25px;
-	}
-	#footer{
-		min-height: 27vw;
-	}
-}

@@ -1,9 +1,8 @@
-.volunteer-title{
+	.volunteer-title{
 	font-size: 30px;
 	margin: 30px 150px 7px 150px;
 	padding: 0px 90px;
 }
-
 #volunteer{
     display: flex;
 	flex-direction: row;
@@ -77,4 +76,38 @@
                 }
         }
     }
+}
+
+// MEDIA QUERY SECTION
+
+@media all 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+	.volunteer-title{
+		padding: 5px;
+		margin: 8px;
+	}
+	#volunteer{
+		textarea{
+			height: 40vw;
+		}
+		.form-box{
+			padding: 5px;
+			margin: 0px 8px;
+			.maincontact__send{
+				input{
+					width: 100%;
+				}
+			}	
+			.form-info{
+				display: block;
+				.form-select{
+					select{
+						height: 6vw;
+					}
+				}
+			}
+		}
+  		}
 }

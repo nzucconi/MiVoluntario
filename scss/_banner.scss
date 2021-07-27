@@ -33,14 +33,17 @@
 				margin-top: 30px;
 				}
 		}
-	}	
+	}
 
-	//MEDIA QUERY SECTION
+// MEDIA QUERY SECTION
 
-@media all and (max-width: 600px){
+@media all 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
 	.banner__main{
 		.banner-box__store{
-			padding: 0px 10px 15px 10px;
+			padding: 5px 10px 15px 10px;
 			.banner-info{
 				img{
 					margin: 25px;
