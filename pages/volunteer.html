@@ -15,7 +15,7 @@
 <!-----------------HEADER SECTION---------->
 		<div class="container-fluid px-0" id="header" >
 			<nav class="navbar navbar-expand-lg navbar-light px-0">
-				<a class="navbar-brand ml-3" href="index.html">
+				<a class="navbar-brand ml-3" href="../index.html">
 	              <img src="../media/heartlogo.svg" width="40" alt="Home Logo">
 	          	</a> 
 	          	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,7 +46,7 @@
 		<p class="font-weight-bold volunteer-title">Volunteer Aplication</p>		
 		<div id="volunteer">
 			<div class="form-box">
-				<form action="" method="POST" enctype="multiplat/form-data">
+				<form action="" method="POST" onsubmit="Your lalala"enctype="multiplat/form-data">
 					<label class="contact-labels">Name<span>*</span></label>
 					<div class="form-info">
 						<div class="form-info__box">
@@ -65,35 +65,35 @@
 						</div>
 						<div class="form-info__box">	
 							<label class="contact-labels">Date of Birth<span>*</span></label>
-							<input required type="email" name="email" placeholder="mm/dd/yyyy">
+							<input required type="date" name="date">
 						</div>
 						<div class="form-info__box">	
 							<label class="contact-labels">Phone<span>*</span></label>
-							<input required type="email" name="email">
+							<input required type="tel" name="tel">
 						</div>
 					</div>
-					<label class="contact-labels">Address<span>*</span></label>
+					<label class="contact-labels">Address</label>
 					<div class="form-info__box">
-						<input required type="text" name="name">
+						<input type="text" name="name">
 						<label class="font-size-small">Street Address</label>
 					</div>
 					<div class="form-info__box">
-						<input required type="text" name="name">
+						<input type="text" name="name">
 						<label class="font-size-small">Address Line 2</label>
 					</div>
 					<div class="form-info">
 						<div class="form-info__box">
-							<input required type="text" name="name">
+							<input type="text" name="name">
 							<label class="font-size-small">City</label>
 						</div>
 						<div class="form-info__box">
-							<input required type="text" name="name">
+							<input type="text" name="name">
 							<label class="font-size-small">State / Province / Region</label>
 						</div>
 					</div>
 					<div class="form-info">
 						<div class="form-info__box temptemp">
-							<input required type="text" name="name">
+							<input type="text" name="name">
 							<label class="font-size-small">ZIP / Postal Code</label>
 						</div>
 						<div class="form-select">
@@ -110,7 +110,7 @@
 						<textarea placeholder="Write a minimun of 50 characters"></textarea>
 					</div>
 					<div class="maincontact__send maincontact__send--animated">
-						<input type="submit" name="sube_form" value="Submit">
+						<input type="submit" name="upload_form" value="Submit">
 					</div>
 				</form>
 			</div>
@@ -122,8 +122,8 @@
 				<a href="https://www.instagram.com/"><img src="../media/ig.png" width="35" alt="Logo de Instagram"></a>
 				<a href="https://www.twitter.com/"><img src="../media/tw.png" width="35" alt="Logo de Twitter"></a>
 			</div>
-			<div class="footer-info">
-				<h4 class="font-size-small">info@myvolunteer.org / Av. Montes de Oca 233 - CP. 1270 - CABA, Buenos Aires, Argentina</h4>
+			<div class="footer-info font-weight-semi-bold">
+				<a href="mailto:info@myvolunteer.org">info@myvolunteer.org</a><h4>/ Av. Montes de Oca 233 - CP. 1270 - CABA, Buenos Aires, Argentina</h4>
 			</div>
 		</div>
 		<script src="../bootstrap/js/jquery-3.5.1.slim.min.js"></script>
