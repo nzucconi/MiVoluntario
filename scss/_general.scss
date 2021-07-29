@@ -4,9 +4,7 @@
 
 //VARIABLES
 
-$bgColor: rgb(193, 195, 231);
 $primaryColor: #161a21;
-$secundaryColor: white;
 $buttonPrimaryColor: #3638bc;
 $buttonSecondaryColor: white;
 $colorPurple:  rgb(163, 81, 211);
@@ -101,7 +99,6 @@ $textweight: (
 			background-image: url("../media/menu.png");
 		}
 		ul{
-			display: flex;
 			flex-direction: row;
 			flex-wrap: wrap;
 			justify-content: center;
