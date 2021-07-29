@@ -103,7 +103,7 @@ input, select, textarea {
       .banner__main .banner-box__store .banner-info p {
         margin: 10px 5px 20px 5px;
         padding: 0px 20px 20px 20px; }
-    .banner__main .banner-box__store .banner-box-temp {
+    .banner__main .banner-box__store .banner-box-cta {
       display: flex;
       flex-direction: row;
       align-items: center;
@@ -115,7 +115,7 @@ input, select, textarea {
     padding: 5px 10px 15px 10px; }
     .banner__main .banner-box__store .banner-info img {
       margin: 25px; }
-    .banner__main .banner-box__store .banner-box-temp img {
+    .banner__main .banner-box__store .banner-box-cta img {
       width: 75%; } }
 
 #news .news-box {
