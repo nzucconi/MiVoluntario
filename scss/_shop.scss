@@ -1,0 +1,36 @@
+#shop{
+    min-height: 20vw;
+    .shopItems{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        min-height: 13vw;
+        border: 2px solid transparent;
+        border-radius: 8px;
+        background-color: #f1f17b;
+        padding: 8px 40px;
+        .secondaryButton{
+            a{
+                padding: 20px;
+            }
+        }
+    }
+    .shopGoToCart{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        min-height: 12vw;
+        background-color: #a5a59a;
+    }
+    .shopPriceList{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        background-color: #f1f17b;
+        min-height: 12vw;
+
+    }
+}
