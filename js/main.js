@@ -1,9 +1,3 @@
-// Asks Username
-function askUsername() {
-    let  username = prompt("Inser username");
-    return username;
-}
-
 // All Products
 class Product {
         constructor(name, size, price, stock) {
@@ -46,11 +40,6 @@ const productHats = [
         hat1 = new Product("Join", "Only Size", 85, 4),
         hat2 = new Product("Just Us", "Only Size", 150, 4),
  ]
-
- // Asking username before start
-let username = askUsername();
-console.log("Welcome " + username);
-
 
 const cashier = new Cashier();
 

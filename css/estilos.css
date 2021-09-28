@@ -17,6 +17,15 @@ input, select, textarea {
   font-size: 20px;
   box-shadow: -6px 4px 10px 1px rgba(0, 0, 0, 0.43); }
 
+.shopButtons button {
+  padding: 20px;
+  background-color: #3638bc;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  color: white;
+  font-size: 20px;
+  box-shadow: -6px 4px 10px 1px rgba(0, 0, 0, 0.43); }
+
 .font-size-small {
   font-size: 13px; }
 
@@ -437,24 +446,22 @@ input, select, textarea {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    min-height: 13vw;
+    min-height: 12vw;
     border: 2px solid transparent;
     border-radius: 8px;
     background-color: #f1f17b;
     padding: 8px 40px; }
-    #shop .shopItems .secondaryButton a {
-      padding: 20px; }
-  #shop .shopGoToCart {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    min-height: 12vw;
-    background-color: #a5a59a; }
-  #shop .shopPriceList {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    background-color: #f1f17b;
-    min-height: 12vw; }
+    #shop .shopItems .shopGoToCart {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      min-height: 12vw;
+      background-color: #a5a59a; }
+    #shop .shopItems .shopPriceList {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      background-color: #72c985;
+      min-height: 12vw; }

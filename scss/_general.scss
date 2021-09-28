@@ -37,6 +37,19 @@ input, select, textarea{
 		box-shadow: -6px 4px 10px 1px rgba(0,0,0,0.43);
 		}
 	}
+
+.shopButtons{
+	button{
+        padding: 20px;
+        background-color: #3638bc;
+        border-radius: 10px;
+        border: 2px solid transparent;
+        color: white;
+        font-size: 20px;
+        box-shadow: -6px 4px 10px 1px rgba(0,0,0,0.43);
+    }
+}
+	
 $textsize: (
 	"small": 13px,
 	"medium": 20px,
