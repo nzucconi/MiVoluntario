@@ -451,17 +451,17 @@ input, select, textarea {
     border-radius: 8px;
     background-color: #f1f17b;
     padding: 8px 40px; }
-    #shop .shopItems .shopGoToCart {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: center;
-      min-height: 12vw;
-      background-color: #a5a59a; }
-    #shop .shopItems .shopPriceList {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: center;
-      background-color: #72c985;
-      min-height: 12vw; }
+  #shop .shopGoToCart {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-height: 12vw;
+    background-color: #a5a59a; }
+  #shop .shopPriceList {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #72c985;
+    min-height: 12vw; }
