@@ -452,9 +452,32 @@ input, select, textarea {
     background-color: #f1f17b;
     padding: 8px 40px; }
     #shop .shopItems .shopButtons {
+      height: 26vw;
+      background-color: white;
       display: flex;
       flex-direction: column;
       text-align: center;
-      margin: 12px; }
-      #shop .shopItems .shopButtons img, #shop .shopItems .shopButtons p {
-        padding: 10px 0px; }
+      justify-content: space-evenly;
+      margin: 12px;
+      border-radius: 6px 6px 0 0; }
+      #shop .shopItems .shopButtons .temporal2 .temporal {
+        margin-bottom: 0px; }
+      #shop .shopItems .shopButtons button {
+        padding: 8px;
+        margin: 0px 40px;
+        font-size: 17px;
+        box-shadow: -1px 6px 10px 1px rgba(0, 0, 0, 0.43); }
+  #shop .shopGoToCart {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-height: 12vw;
+    background-color: #a5a59a; }
+  #shop .shopPriceList {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #72c985;
+    min-height: 12vw; }
