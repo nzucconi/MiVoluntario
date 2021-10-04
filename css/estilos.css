@@ -440,28 +440,21 @@ input, select, textarea {
         height: 6vw; } }
 
 #shop {
-  min-height: 20vw; }
+  min-height: 40vw; }
   #shop .shopItems {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    min-height: 12vw;
+    min-height: 30vw;
     border: 2px solid transparent;
     border-radius: 8px;
     background-color: #f1f17b;
     padding: 8px 40px; }
-  #shop .shopGoToCart {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    min-height: 12vw;
-    background-color: #a5a59a; }
-  #shop .shopPriceList {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    background-color: #72c985;
-    min-height: 12vw; }
+    #shop .shopItems .shopButtons {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      margin: 12px; }
+      #shop .shopItems .shopButtons img, #shop .shopItems .shopButtons p {
+        padding: 10px 0px; }

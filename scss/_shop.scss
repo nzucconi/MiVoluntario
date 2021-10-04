@@ -1,30 +1,39 @@
 #shop{
-    min-height: 20vw;
+    min-height: 40vw;
     .shopItems{
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
         align-items: center;
-        min-height: 12vw;
+        min-height: 30vw;
         border: 2px solid transparent;
         border-radius: 8px;
         background-color: #f1f17b;
         padding: 8px 40px;
-    }
-    .shopGoToCart{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        min-height: 12vw;
-        background-color: #a5a59a;
-    }
-    .shopPriceList{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        background-color: #72c985;
-        min-height: 12vw;
+        .shopButtons{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            margin: 12px;
+            img, p{
+                padding: 10px 0px;
+            }
         }
+    }
+    // .shopGoToCart{
+    //     display: flex;
+    //     flex-direction: row;
+    //     align-items: center;
+    //     justify-content: center;
+    //     min-height: 12vw;
+    //     background-color: #a5a59a;
+    // }
+    // .shopPriceList{
+    //     display: flex;
+    //     flex-direction: row;
+    //     align-items: center;
+    //     justify-content: center;
+    //     background-color: #72c985;
+    //     min-height: 12vw;
+    //     }
 }

@@ -42,17 +42,6 @@ class Cashier {
 
 }
 
-const productShirts = [
-        shirt1 = new Product("Volunteer Now", "Small", 100, 5),
-        shirt2 = new Product("Volunteer Now", "Medium", 100, 3),
-        shirt3 = new Product("Get Involved", "Small", 120, 5),
-    ]
-
-const productHats = [
-        hat1 = new Product("Join", "Only Size", 85, 4),
-        hat2 = new Product("Just Us", "Only Size", 150, 4),
-    ]
-
 const cashier = new Cashier();
 
 let insertShirts = $(() => {
@@ -89,10 +78,15 @@ $("#goToCart").on("click", () => {
     }
 })
 
+// let priceList = $(() => {
+//     $("#priceList").on("click", () => {
+//         cashier.getProduct();
+//     })
+// })
 let priceList = $(() => {
     $("#priceList").on("click", () => {
-    // const productList = productShirts.concat(productHats)
-    const productList = cashier.getProduct();
-    console.log(productList);
+        cashier.getProduct();
+        // var arr = Object.keys(priceList).map(function (key) { return priceList[key]; });
+        // console.log(arr);
     })
 })
