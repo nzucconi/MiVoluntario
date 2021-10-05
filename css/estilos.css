@@ -439,9 +439,12 @@ input, select, textarea {
       #volunteer .form-box .form-info .form-select select {
         height: 6vw; } }
 
+#header #cart {
+  padding-left: 57vw; }
+
 #shop {
-  min-height: 40vw;
-  background-color: #161a21; }
+  min-height: 37vw;
+  background-color: #272d37; }
   #shop .temporal3 {
     display: flex;
     flex-direction: row;
@@ -449,7 +452,7 @@ input, select, textarea {
     align-items: center;
     margin: 0px 20px;
     padding: 25px 10px;
-    background-color: #161a21; }
+    background-color: #272d37; }
     #shop .temporal3 p {
       text-align: center;
       margin-bottom: 0px;
@@ -465,7 +468,7 @@ input, select, textarea {
     min-height: 30vw;
     border: 2px solid transparent;
     border-radius: 8px;
-    background-color: #161a21;
+    background-color: #272d37;
     padding: 8px 40px; }
     #shop .shopItems .shopButtons {
       height: 26vw;
@@ -482,18 +485,5 @@ input, select, textarea {
         padding: 8px;
         margin: 0px 40px;
         font-size: 17px;
-        box-shadow: -1px 6px 10px 1px rgba(0, 0, 0, 0.43); }
-  #shop .shopGoToCart {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    min-height: 12vw;
-    background-color: #161a21; }
-  #shop .shopPriceList {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    background-color: #72c985;
-    min-height: 12vw; }
+        box-shadow: -1px 6px 10px 1px rgba(0, 0, 0, 0.43);
+        background-color: #161a21; }
