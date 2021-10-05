@@ -440,7 +440,23 @@ input, select, textarea {
         height: 6vw; } }
 
 #shop {
-  min-height: 40vw; }
+  min-height: 40vw;
+  background-color: #161a21; }
+  #shop .temporal3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 20px;
+    padding: 25px 10px;
+    background-color: #161a21; }
+    #shop .temporal3 p {
+      text-align: center;
+      margin-bottom: 0px;
+      padding: 0px 70px;
+      margin: 0px 50px;
+      box-shadow: -6px 4px 10px 1px #b3a43a;
+      background-color: #f1f17b; }
   #shop .shopItems {
     display: flex;
     flex-direction: row;
@@ -449,7 +465,7 @@ input, select, textarea {
     min-height: 30vw;
     border: 2px solid transparent;
     border-radius: 8px;
-    background-color: #f1f17b;
+    background-color: #161a21;
     padding: 8px 40px; }
     #shop .shopItems .shopButtons {
       height: 26vw;
@@ -473,7 +489,7 @@ input, select, textarea {
     align-items: center;
     justify-content: center;
     min-height: 12vw;
-    background-color: #a5a59a; }
+    background-color: #161a21; }
   #shop .shopPriceList {
     display: flex;
     flex-direction: row;
