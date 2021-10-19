@@ -61,22 +61,22 @@
         .form-message{
             display: flex;
 			flex-direction: column;
-        }
+		}
 		.maincontact__send{	
 			display: flex;
     		justify-content: center;
             input{
                 margin: 20px 6px 30px 6px;
-				background-color: #3638bc;
+				background-color: $buttonPrimaryColor;
 				border-radius: 10px;
 				color: white;
-                padding: 7px 15px;
+                padding: 13px 60px;
                 font-size: 20px;
                 word-spacing: 1.5px;
                 }
-        }
+			}
+		}
     }
-}
 
 // MEDIA QUERY SECTION
 

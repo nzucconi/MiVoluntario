@@ -1,13 +1,12 @@
 #news{
-	padding: 0;
 	.news-box{
 		display: flex;
 		flex-direction: row;
 		min-height: 16vw;
 		border: 2px solid transparent;
 		border-radius: 8px;
-		background-color: #f1f17b;
-		margin: 10px 20px;
+		background-color: $secondaryColor;
+		margin: 50px 70px;
 		padding: 8px 40px;
 		img{
 			height: 35vh;
@@ -81,6 +80,7 @@
 			flex-direction: column;
 			margin: 0px;
     		padding: 0px;
+			border-radius: 0px;
 			img{
 				height: 37vh;
 				margin-top: 5px;
@@ -105,6 +105,7 @@
 					align-items: center;
 					justify-content: center;
 					margin: 0px 0px 35px 0px;
+					width: 84vw;
 					p{
 						padding: 0px 7px;
 					}
