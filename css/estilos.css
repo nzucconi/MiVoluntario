@@ -458,7 +458,6 @@ input, select, textarea {
       margin-bottom: 0px;
       padding: 0px 70px;
       margin: 0px 50px;
-      box-shadow: -6px 4px 10px 1px #b3a43a;
       background-color: #f1f17b; }
   #shop .shopItems {
     display: flex;
